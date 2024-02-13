@@ -1,9 +1,8 @@
 ---
--name: my first playbook for testing
-hosts: all
-tasks:
-
-  -name: printing task
-  debug:
-    msg: "Testing from anisble-server"
+- name: my first playbook for testing
+  hosts: all
+  tasks:
+    - name: printing task
+      debug:
+        msg: "Testing from anisble-server"
 ...
