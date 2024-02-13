@@ -4,6 +4,6 @@ hosts: all
 tasks:
 
   -name: printing task
-   debug: 
+  debug:
     msg: "Testing from anisble-server"
 ...
