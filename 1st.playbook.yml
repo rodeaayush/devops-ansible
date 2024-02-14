@@ -1,0 +1,9 @@
+- name: this is a play at the top level of a file
+  hosts: all
+  tasks:
+  - name: say hi
+    debug:
+      msg: "hi..."
+  - name: say "hello..."
+    debug:
+      msg: "hello..."
