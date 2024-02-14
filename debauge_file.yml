@@ -6,7 +6,7 @@
       debug:
         msg: "Testing from anisble-server"
 
-    tasks:
+  tasks:
     - name: Second debug task
       debug:
         msg: "message calling debug module"
