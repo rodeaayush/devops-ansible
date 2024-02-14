@@ -6,3 +6,13 @@
       debug:
         msg: "Testing from anisble-server"
 ...
+
+- name: Test one playbook
+  hosts: all
+  tasks:
+    - name: shows the hosts distribution name
+      debug:
+        msg: "write any msg":{{anisble_user_gid}}
+    - name: show multiple output in msg
+      debug:
+        msg: "writing any msg":{{ansible_env.LOGNAME}}
