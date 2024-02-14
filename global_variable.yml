@@ -1,8 +1,8 @@
 ---
 - name: my second playbook for global variables
   hosts: all
-  var:
-      URL: "www.cdec.com"
+  vars:
+      URL: www.cdec.com
   
   tasks:
     - name: Task one provided by Ayush
