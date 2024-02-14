@@ -1,8 +1,7 @@
 ---
 - name: my playbook for local variables
   hosts: all
-  file_vars:
-      URL: "Ayush"
+  vars_files: Ayush.yml
   tasks:
     - name: Task one provided by Ayush for cli varibale
       debug:
