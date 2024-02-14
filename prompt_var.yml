@@ -3,7 +3,7 @@
   hosts: all
   vars_prompt:
     - name: URL
-      prompt: "Enter your URL"
+      prompt: "Enter your URL Not needed"
   tasks:
   - name: example task
     debug:
