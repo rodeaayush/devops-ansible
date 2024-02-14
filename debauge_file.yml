@@ -1,18 +1,8 @@
-# ---
-# - name: my first playbook for testing
-#   hosts: all
-#   tasks:
-#     - name: printing task
-#       debug:
-#         msg: "Testing from anisble-server"
-# ...
-
-- name: Test one playbook
+---
+- name: my first playbook for testing
   hosts: all
   tasks:
-    - name: shows the hosts distribution name
+    - name: printing task
       debug:
-        msg: "write any msg:{{ anisble_user_gid}}"
-    - name: show multiple output in msg
-      debug:
-        msg: "writing any msg:{{ansible_env.LOGNAME}}"
+        msg: "Testing from anisble-server"
+...
