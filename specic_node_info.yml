@@ -6,12 +6,10 @@
     - name: What is a gid of local user ?
       debug:
         msg: "{{ansible_user_gid}}"
-  tasks:
-    - name: 
+    - name: What is OS family ?
       debug:
         msg: "{{ansible_os_family}}"
-  tasks:
-    - name: 
+    - name: What is my anisble m/c id?
       debug:
         msg: "{{ansible_machine_id}}"
 ...
