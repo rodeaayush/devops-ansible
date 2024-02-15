@@ -1,0 +1,9 @@
+---
+- name: Only for node info
+  hosts: all
+  become: true
+  tasks:
+    - name: What is a gid of local user ?
+      debug:
+        msg: "{{ansible_user_gid}}"
+...
