@@ -1,5 +1,5 @@
 ---
-- name: this is my shell playbook
+- name: this is my shell playboook
   hosts: all
   become: true
   tasks:
