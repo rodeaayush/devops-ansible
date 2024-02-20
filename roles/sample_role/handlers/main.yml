@@ -1,4 +1,4 @@
 - name: strating apache2
-   systemd: 
-     name: apache2
-     state: started
+  systemd:
+    name: apache2
+    state: started
