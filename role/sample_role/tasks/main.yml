@@ -1,0 +1,13 @@
+---
+- name: installing apache2
+  package:
+    name: apache2
+    state: latest
+    debug:
+      msg: "{{URL}}"
+- name: copyig index.html
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+  notify:
+    - strating apache2
