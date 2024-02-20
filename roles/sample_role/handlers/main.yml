@@ -1,4 +1,5 @@
-- name: strating apache2
+- name: stratingnginx
   systemd:
-    name: apache2
+    name: nginx
     state: started
+    enabled: true
