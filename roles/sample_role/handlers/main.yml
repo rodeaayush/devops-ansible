@@ -1,4 +1,4 @@
-- name: stratingnginx
+- name: strating nginx
   systemd:
     name: nginx
     state: started
